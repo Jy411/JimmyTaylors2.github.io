@@ -1,0 +1,176 @@
+
+
+
+nav{
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	transition: all 0.3s ease;
+	margin:auto;
+	position:static;
+	display:block;
+	clear:both;
+	border-top-width: 2px;
+	border-top-style: solid;
+	border-top-color: #1655f5;
+	font-size: 13.5px;
+	background-color: #02226d;	
+
+	
+}
+
+nav a:hover{
+	opacity:1;
+	}
+	
+/********************************************************** Main Menu */	
+nav > li{
+	position: relative !important;
+	display:inline-table;
+	outline:none;
+	text-align:left;
+	cursor:pointer;
+	margin-left:-3px;
+	box-sizing:border-box;
+	}
+nav > li:hover, 
+nav > li:focus{
+	background-color:rgba(0,0,0,0.4);
+	opacity:1;
+}
+nav li a{
+	display:block;
+	text-decoration:none;
+	text-transform: uppercase;
+	padding:15px 20px;
+	color:#FFF;
+	}
+nav > li:hover > .sub,
+nav > li:focus > .sub{
+	max-height:999px;
+	opacity:1;
+	padding:20px 0px;
+	margin-top:6px;
+	
+}
+
+
+/********************************************************** Desmond's Tan Request */
+logo{
+	transition: all 0.5s ease;
+	}
+.logo_hidden{
+	opacity:0;
+	width:0px;
+	display:inline-block;
+	}
+.logo_reveal{
+	opacity:1;
+	padding:15px 25px;
+  display:inline-table;
+	}
+
+/********************************************************** Sub Menu */
+.sub{
+	position: absolute;
+	top:48px !important;
+	left:0px;
+	transition: all 0.2s ease;
+	opacity:0;
+	overflow:hidden;
+	max-height:0px;
+	white-space:nowrap;
+	z-index:9999;
+	background-color:rgba(0,0,0,0.7);
+
+}
+.sub > div a{
+	text-transform:none;
+	padding:12px 25px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #666;
+	}
+.sub > div:last-child a{
+	border-bottom-width: 0px;
+	}
+.sub > div:hover{
+	opacity:0.8;
+	}	
+
+.sub a:hover{
+	color: #FFF;
+}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+/********************************************************** Toggle */
+#toggle, 
+#toggle + label {
+	display:none;
+	cursor:pointer;
+	background-image: url(nav.png);
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-position: right 25px center;	
+	height:45px;
+	position:relative;
+	background-color: #02226d;	
+
+}
+#toggle + label:after {
+	content:"MENU";
+	position:absolute;
+	left:25px; 
+	top:13px;
+}
+
+@media only screen and (max-width: 1200px) {
+#toggle + label{
+	display:block;
+	color: #FFF;
+	}
+		
+#toggle:checked ~ nav {
+	display:block;
+	max-height:999px;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #1655f5;
+}
+nav {
+	transition: all 1s ease;
+	position: static;
+	display:block;
+	max-height:0px;
+	overflow:hidden;
+}
+nav > li{
+	display:block;
+	padding:0px 15px;
+	}	
+nav li a{
+	padding:10px 25px;
+	}
+.sub{
+
+}
+.sub{
+	position: static;
+	background:transparent;
+	padding:0px 0px;
+	margin-top:0px;
+	box-shadow:none;
+}
+nav > li:hover > .sub,
+nav > li:focus > .sub{
+	padding:0px 20px 20px 20px;
+}
+}

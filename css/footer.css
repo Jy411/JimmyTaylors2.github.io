@@ -1,0 +1,39 @@
+prefooter{
+	display:block;
+	text-align:center;
+	background-color: #d20007;	
+	position:relative;
+	overflow:visible;
+	}
+prefooter img{
+	margin-top:-20px;
+
+	}
+prefooter a:hover{
+	opacity:1;
+}
+prefooter a:hover img{
+	margin-top:-40px;
+	}
+	
+
+footer{
+	width: auto;
+	text-align:center;
+	display:block;
+	margin: auto;
+	font-size: 11px;
+	color:#FFF;
+	padding:25px;
+	font-weight: lighter;
+	background-color: #666;
+	}
+	
+footer a {
+	color: #FFF;
+}
+footer p {
+		text-transform: uppercase;}
+
+
+

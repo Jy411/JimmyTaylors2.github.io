@@ -1,0 +1,17 @@
+inline-box{
+	display:inline-block;
+	width:280px;
+	margin:10px 10px 0px 10px;
+	position:relative;
+	vertical-align:top;
+	}
+
+	
+@media only screen and (max-width: 768px) {
+inline-box{
+	max-width:38%;
+	font-size:80%;
+	
+	}
+}
+

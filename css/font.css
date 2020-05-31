@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,800');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,800');
+body {
+	width: auto;
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	color: #333;
+
+}
+
+
+hr{
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #999;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;
+	clear: both;
+	width: 98%;
+	padding-top: 20px;
+	margin-bottom: 20px;
+	clear: both;
+}
+
+
+/*************** ALL LINKS SAME STYLE LAAAAA **************************************/
+a,
+a img{
+	color: #333;
+	text-decoration: none;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	-ms-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+	color: #333;
+
+}
+a:hover{
+	opacity:0.8;
+}
+/*************** Misc **************************************/
+.center{
+	text-align:center;
+}
+.left{
+	text-align:left;
+	}
+.right{
+	text-align:right;
+	}
+
+.font_blue{
+	color:#02226d;
+	}
+
+.font_white{
+	color:#FFF;
+	}
+ol, ul{
+	padding-left: 25px;
+}
+.justify{
+	text-align:justify;
+	}
+.fa{
+	display:inline-block;
+	margin-right:7px;
+	}
+.fa-addwidth{
+	width:20px;
+	}
+.fb-like{
+	display:block;
+	margin-bottom:10px;
+	}
+
+/*************** TITLE STYLE **************************************/
+p, ul, li{
+	line-height: 24px;
+	}
+
+h1{
+	font-family: 'Montserrat', sans-serif;
+	font-weight:400;
+	text-decoration: none;
+	font-size: 30px;
+	text-transform: capitalize;
+	line-height: normal;
+}
+
+h2{
+	font-family: 'Montserrat', sans-serif;
+	font-weight:400;
+	text-decoration: none;
+	font-size: 26px;
+}
+h2 > small{
+	font-size:20px;
+	}
+h3{
+	font-family: 'Montserrat', sans-serif;
+	font-weight:400;
+	font-size: 22px;
+	clear:both;
+	}
+
+
+
+
+/*************** READ MORE BUTTON **************************************/
+.readmore{
+	font-family: 'Montserrat', sans-serif;
+	font-size:13.5px;
+	text-decoration: none;
+	background-color:rgba(0,0,0,0);
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	-ms-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+	color: #FFF;
+	padding: 13px 25px 15px 25px;
+	text-align:center;
+	display:inline-block;
+	font-weight: bold;
+}
+
+.readmore.white{
+	color:#fff;
+	border: 1px solid #ccc;
+	}
+.readmore.blue{
+	color:#02226d;
+	border: 1px solid #02226d;
+	}
+.readmore:hover{
+	background-color:#02226d;
+	border: 1px solid #02226d;
+	color:#fff;
+	opacity:1;
+}

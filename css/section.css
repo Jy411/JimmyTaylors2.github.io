@@ -1,0 +1,95 @@
+section{
+	box-shadow: inset 0px 16px 19px -22px #000000;
+	-webkit-box-shadow: inset 0px 16px 19px -22px #000000;
+	-moz-box-shadow: inset 0px 16px 19px -22px #000000;
+	-o-box-shadow: inset 0px 16px 19px -22px #000000;
+	overflow:auto;
+	box-sizing:border-box;
+	}
+.bg_blue{
+	background-image: url(../img/bg_red.png);
+	background-size:cover;
+	background-attachment: fixed;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	-o-box-shadow: none;
+	}
+	
+.bg_gray_light{
+	background-image: url(../img/bg_gray.jpg);
+	background-size:cover;
+	background-attachment: fixed;
+}
+.bg_slogan{
+	background-image: url(../img/bg_slogan.jpg);
+	background-position:center center;
+	background-size:cover;
+	display:block;
+	position:relative;
+}
+.bg_slogan slogan{
+	display:block;
+	margin:auto;
+	max-width:600px;
+	padding:140px 40px 40px 40px;
+	z-index:999;
+	text-shadow: 
+	0px 0px 5px #000,
+	0px 0px 10px #000,
+	0px 0px 15px #000,
+	0px 0px 20px #000,
+	0px 0px 25px #000;
+	}
+.row{
+	margin: auto;
+	max-width: 1200px;
+	width:auto;
+	border-spacing:60px;
+	display:table;
+	width:100%;
+	overflow:hidden;
+	}
+.column{
+	display:table-cell;
+	vertical-align:top;
+	position:relative;
+	}
+
+.vertical_middle{
+	vertical-align:middle;
+	}
+.vertical_bottom{
+	vertical-align:bottom;
+	}
+.dua{
+	width:50%;
+}	
+.tiga{
+	width:33%;
+}	
+.empat{
+	width:25%;
+
+}	
+.liftup{
+	margin-top:-60px;
+	}
+
+@media only screen and (max-width: 768px) {
+	.row{
+	border-spacing:30px;
+	}
+	.column{
+	display:block;
+	width:auto;
+	}
+	.dua, .tiga, .empat{
+		width:auto;
+	}
+.liftup{
+	margin-top:0px;
+	}
+
+}
+

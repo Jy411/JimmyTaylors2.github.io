@@ -1,0 +1,84 @@
+#banner{
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #ff0000;
+	position:relative;
+	margin-top:170px;
+	display:block;
+	width:100%;
+	height:350px;
+	overflow:hidden;
+	background-attachment:fixed;
+	background-size:100% auto;
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+#banner > img {
+	width:100%;}
+intro{
+	position:absolute;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	display:block;
+	width:100%;
+	max-width:1100px;
+	margin:auto;
+	box-sizing:border-box;
+	background-color:rgba(2,34,109, 0.7);
+	padding:30px;
+	color: #FFF;
+
+	font-weight: normal;
+	}
+
+intro h1{
+	margin-top:0px;
+	color: #FFF;
+	}
+intro p{
+	margin:0px;
+	color: #FFF;
+	}
+
+/*banner images for pages*/
+.banner_aboutus			{background-image: url(../img/banner_aboutus.jpg);}
+.banner_webdesign		{background-image: url(../img/banner_webdesign.jpg);}
+.banner_webhosting	{background-image: url(../img/banner_webhosting.jpg);}
+.banner_seosem			{background-image: url(../img/banner_seosem.jpg);}
+.banner_socialmedia		{background-image: url(../img/banner_socialmedia.jpg);}
+.banner_contactinfo	{background-image: url(../img/banner_contactinfo.jpg);}
+.banner_reseller		{background-image: url(../img/banner_reseller.jpg);}
+.banner_ordernow		{background-image: url(../img/banner_ordernow.jpg);}
+.banner_esetting		{background-image: url(../img/banner_esetting.jpg);}
+
+
+
+@media only screen and (max-width: 900px) { 
+#banner{
+	margin-top:160px;
+	background-attachment:scroll;
+	background-size:cover; 
+	height:400px; 
+}
+}
+@media only screen and (max-width: 820px) {
+#banner{
+	margin-top:213px;
+}
+}
+
+@media only screen and (max-width: 435px) {
+#banner{
+	margin-top:226px;
+}
+
+
+
+
+
+
+
+
+
+

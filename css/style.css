@@ -1,0 +1,38 @@
+@import url("font.css");
+@import url("header.css");
+@import url("footer.css");
+@import url("section.css");
+@import url("product.css");
+@import url("banner.css");
+@import url("fadein.css");
+@import url("esetting.css");
+
+*{
+	box-sizing:border-box;
+	}
+body {
+	width: auto;
+	margin: auto;
+	-webkit-text-size-adjust:none;
+}
+
+.border_image{
+	border: 5px solid #FFF;
+	box-shadow:0px 0px 3px #333;
+	background-color: #FFF;
+	width:100%;
+	}
+
+
+
+	
+	
+
+	
+.heret { 
+ width:100%;
+ position:absolute;
+ z-index:98;
+ }	 
+ 
+
